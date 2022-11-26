@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.add.AddCourseActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/course_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_input_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="255"
+            android:maxLines="1"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/add_spinner_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:entries="@array/day"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/add_start_time"
+            style="@style/Base.Widget.AppCompat.ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/start_time"
+            android:onClick="showStartTimePicker"
+            android:src="@drawable/ic_time"
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/tv_start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_toEndOf="@id/add_start_time"
+            android:gravity="center_vertical"
+            android:text="@string/start_time"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:id="@+id/add_tv_start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_start_time"
+            android:layout_toEndOf="@id/add_start_time"
+            android:gravity="center_vertical"
+            android:textColor="@color/textPrimary"
+            tools:text="@string/start_time" />
+
+        <ImageButton
+            android:id="@+id/add_end_time"
+            style="@style/Base.Widget.AppCompat.ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toEndOf="@id/tv_start_time"
+            android:contentDescription="@string/end_time"
+            android:onClick="showEndTimePicker"
+            android:src="@drawable/ic_time"
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/tv_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_toEndOf="@id/add_end_time"
+            android:gravity="center_vertical"
+            android:text="@string/end_time"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:id="@+id/add_tv_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_end_time"
+            android:layout_toEndOf="@id/add_end_time"
+            android:gravity="center_vertical"
+            android:textColor="@color/textPrimary"
+            tools:text="@string/end_time" />
+    </RelativeLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/lecturer">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_input_lecturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:maxLength="255"
+            android:maxLines="1"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/note">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_input_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:lines="4"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

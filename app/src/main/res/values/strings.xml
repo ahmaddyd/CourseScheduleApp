@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Course Schedule</string>
+    <string name="add_course">Add Course</string>
+    <string name="show_list">Show List</string>
+    <string name="settings">Settings</string>
+    <string name="course_name">Course Name</string>
+    <string name="lecturer">Lecturer</string>
+    <string name="note">Note</string>
+    <string name="insert_course">Insert Course</string>
+    <string name="today_schedule">Today\'s Schedule</string>
+    <string name="title_activity_list">Course Schedule</string>
+    <string name="sort_course">Sort Course</string>
+
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+
+    <string name="time_format">%1$s, %2$s - %3$s</string>
+    <string name="notification_message_format">(%1$s - %2$s) %3$s</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="reminder_header">Reminder</string>
+    <string name="pref_key_notify">key_notification</string>
+    <string name="pref_notify_summary">Daily reminder for nearest schedule of the day.</string>
+    <string name="pref_notify_name">Notification</string>
+
+    <string name="display_header">Display</string>
+    <string name="pref_dark_title">Dark mode</string>
+    <string name="pref_key_dark" translatable="false">key_dark_mode</string>
+    <string name="pref_dark_auto" translatable="false">auto</string>
+    <string name="pref_dark_on" translatable="false">on</string>
+    <string name="pref_dark_off" translatable="false">off</string>
+    <string name="dark_mode_auto">Automatic</string>
+    <string name="dark_mode_on">Dark mode</string>
+    <string name="dark_mode_off">Light mode</string>
+    <string name="delete_course">Delete Course</string>
+    <string name="time">Time</string>
+    <string name="delete_alert">Delete this course?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="detail">Course Detail</string>
+    <string name="delete_success_message">Course deleted successfully</string>
+    <string name="sort_by_time">Sort by Time</string>
+    <string name="sort_by_course_name">Sort by Course Name</string>
+    <string name="sort_by_lecturer">Sort by lecturer</string>
+    <string name="empty_home_schedule">There are no more schedules today</string>
+    <string name="empty_list_message">No courses added yet</string>
+    <string name="input_empty_message">Course name and time cannot be empty</string>
+</resources>

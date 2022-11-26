@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="day">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+
+    <string-array name="dark_mode">
+        <item>@string/dark_mode_auto</item>
+        <item>@string/dark_mode_on</item>
+        <item>@string/dark_mode_off</item>
+    </string-array>
+
+    <string-array name="dark_mode_value">
+        <item>@string/pref_dark_auto</item>
+        <item>@string/pref_dark_on</item>
+        <item>@string/pref_dark_off</item>
+    </string-array>
+</resources>
