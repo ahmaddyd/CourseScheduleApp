@@ -1,4 +1,4 @@
-# HabitApp
+# CourseSchedulerApp
 ## Aplikasi Android bertema Course Scheduler App
 
 [![forthebadge made-with-python](https://forthebadge.com/images/badges/built-for-android.svg)](https://www.python.org/)
